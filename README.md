@@ -70,8 +70,8 @@ addDoc(colRef, {
     author: "example author",
     createdAt: serverTimestamp(),
   }).then(() => {
-    addBookForm.reset();
-  });
+	// Do something
+   });
 ```
 
 ### TODO come back tomorrow and fix this
